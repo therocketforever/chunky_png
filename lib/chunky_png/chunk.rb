@@ -1,5 +1,3 @@
-# frozen-string-literal: true
-
 module ChunkyPNG
   # A PNG datastream consists of multiple chunks. This module, and the classes
   # contained within, help with handling these chunks. It supports both reading

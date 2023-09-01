@@ -1,5 +1,3 @@
-# frozen-string-literal: true
-
 module ChunkyPNG
   # The Datastream class represents a PNG formatted datastream. It supports
   # both reading from and writing to strings, streams and files.
@@ -11,7 +9,7 @@ module ChunkyPNG
   # @see ChunkyPNG::Chunk
   class Datastream
     # The signature that each PNG file or stream should begin with.
-    SIGNATURE = [137, 80, 78, 71, 13, 10, 26, 10].pack("C8").force_encoding(::Encoding::BINARY).freeze
+    SIGNATURE = [137, 80, 78, 71, 13, 10, 26, 10].pack("C8").force_encoding(::Encoding::BINARY) #.freeze
 
     # The header chunk of this datastream.
     # @return [ChunkyPNG::Chunk::Header]

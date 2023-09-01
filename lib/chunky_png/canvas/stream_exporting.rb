@@ -1,5 +1,3 @@
-# frozen-string-literal: true
-
 module ChunkyPNG
   class Canvas
     # Methods to save load a canvas from to stream, encoded in RGB, RGBA, BGR or ABGR format.

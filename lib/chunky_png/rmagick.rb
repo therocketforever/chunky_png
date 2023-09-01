@@ -1,7 +1,3 @@
-# frozen-string-literal: true
-
-require "rmagick"
-
 module ChunkyPNG
   # Methods for importing and exporting RMagick image objects.
   #

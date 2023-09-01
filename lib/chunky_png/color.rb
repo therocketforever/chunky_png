@@ -1,5 +1,3 @@
-# frozen-string-literal: true
-
 module ChunkyPNG
   # Factory method to return a color value, based on the arguments given.
   #

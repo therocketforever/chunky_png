@@ -1,5 +1,3 @@
-# frozen-string-literal: true
-
 module ChunkyPNG
   class Canvas
     # The ChunkyPNG::Canvas::Masking module defines methods to perform masking

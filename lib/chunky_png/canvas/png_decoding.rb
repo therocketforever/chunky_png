@@ -1,5 +1,3 @@
-# frozen-string-literal: true
-
 module ChunkyPNG
   class Canvas
     # The PNGDecoding contains methods for decoding PNG datastreams to create a

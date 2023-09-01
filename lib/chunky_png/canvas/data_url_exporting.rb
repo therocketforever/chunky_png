@@ -1,5 +1,3 @@
-# frozen-string-literal: true
-
 module ChunkyPNG
   class Canvas
     # Methods to export a canvas to a PNG data URL.

@@ -1,5 +1,3 @@
-# frozen-string-literal: true
-
 module ChunkyPNG
   class Canvas
     # Methods for encoding a Canvas instance into a PNG datastream.

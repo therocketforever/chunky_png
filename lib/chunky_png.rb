@@ -1,5 +1,3 @@
-# frozen-string-literal: true
-
 # Basic requirements from standard library
 require "set"
 #require "zlib"

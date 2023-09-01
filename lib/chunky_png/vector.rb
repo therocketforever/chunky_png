@@ -1,5 +1,3 @@
-# frozen-string-literal: true
-
 module ChunkyPNG
   # Factory method for {ChunkyPNG::Vector} instances.
   #

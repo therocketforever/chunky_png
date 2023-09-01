@@ -1,5 +1,3 @@
-# frozen-string-literal: true
-
 module ChunkyPNG
   # A palette describes the set of colors that is being used for an image.
   #
@@ -21,10 +19,11 @@ module ChunkyPNG
     #   which they appeared in the palette chunk, so that this array can be
     #   used for decoding.
     def initialize(enum, decoding_map = nil)
-      super(enum.sort.freeze)
+      #super(enum.sort.freeze)
+      super(enum.sort)
       @decoding_map = decoding_map if decoding_map
       @encoding_map = {}
-      freeze
+      #freeze
     end
 
     # Builds a palette instance from a PLTE chunk and optionally a tRNS chunk
