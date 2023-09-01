@@ -2,7 +2,7 @@
 
 # Basic requirements from standard library
 require "set"
-require "zlib"
+#require "zlib"
 require "stringio"
 
 # ChunkyPNG - the pure ruby library to access PNG files.
@@ -143,7 +143,7 @@ module ChunkyPNG
   # Null-byte, with the encoding set correctly to ASCII-8BIT (binary) in Ruby 1.9.
   # @return [String] A binary string, consisting of one NULL-byte.
   # @private
-  EXTRA_BYTE = "\0".b
+  EXTRA_BYTE = "\0".force_encoding('ASCII-8BIT')
 end
 
 require "chunky_png/version"
